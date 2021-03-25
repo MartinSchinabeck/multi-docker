@@ -27,7 +27,7 @@
             "image": "martinschinabeck/multi-nginx",
             "hostname": "nginx",
             "essential": true,
-            "portMaAppings": [
+            "portMappings": [
                 {
                     "hostPort": 80, 
                     "containerPort": 80
